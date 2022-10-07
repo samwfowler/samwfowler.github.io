@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+}
+
+main {
+    width: 50%;
+    margin-top: 15px;
+    font-size: 0.8vw;
+    background: rgba(40, 40, 40, 1);
+    border-color: rgba(40, 115, 180, 0.8);
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.9vw;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4vw;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 0px 0px 0px 0px;
+    font-size: 1.02vw;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+    color: rgba(100, 175, 240, 0.5); 
+    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(115, 190, 255, 0.5); 
+    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.5);
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin: 0px 0px 0px 0px;
+}
+
+.highlight {
+    color: rgba(100, 175, 240, 0.5); 
+    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.5);
+}
+
+.contentBox {
+    padding: 30px;
+    /*color: rgb(255, 165, 0);*/
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
+    margin-bottom: -30px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 6px 6px rgba(20, 95, 160, 0.3);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.isBottomBox {
+    margin-bottom: 0px;
+}
+
+.table {
+    margin-bottom: -20px;
+    padding-right: 20px;
+}
+
+.tableRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tableRow:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.1s;
+}
+
+.tableColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex: 1;
+}
+
+img {
+    border-radius: 5px;
+    width: 50%;
+    object-fit: contain;
+    align-self: flex-end;
+}
