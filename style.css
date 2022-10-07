@@ -47,14 +47,15 @@ h4 {
 
 a {
     color: rgba(100, 175, 240, 0.5); 
-    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.5);
+    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.8);
     text-decoration: none;
+    transition: text-shadow 0.2s, color 0.2s;
 }
 
 a:hover {
-    color: rgba(115, 190, 255, 0.5); 
-    text-shadow:0px 0px 15px rgba(40, 115, 180, 0.5);
-    text-decoration: underline;
+    color: rgba(115, 190, 255, 1); 
+    text-shadow:0px 0px 15px rgba(110, 185, 250, 1);
+    transition: text-shadow 0.3s, color 0.3s;
 }
 
 ul, ol {
@@ -104,7 +105,7 @@ ul, ol {
     padding: 10px;
     align-items: center;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
 }
 
 .tableRow:hover {
